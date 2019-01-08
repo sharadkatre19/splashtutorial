@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		7C4E6E9921E473D70053D2EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4E6E9821E473D70053D2EE /* AppDelegate.swift */; };
-		7C4E6E9B21E473D70053D2EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4E6E9A21E473D70053D2EE /* ViewController.swift */; };
+		7C4E6E9B21E473D70053D2EE /* PageContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4E6E9A21E473D70053D2EE /* PageContentViewController.swift */; };
 		7C4E6E9E21E473D70053D2EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C4E6E9C21E473D70053D2EE /* Main.storyboard */; };
 		7C4E6EA021E473E60053D2EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C4E6E9F21E473E60053D2EE /* Assets.xcassets */; };
 		7C4E6EA321E473E60053D2EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C4E6EA121E473E60053D2EE /* LaunchScreen.storyboard */; };
+		7C4E6EAB21E484520053D2EE /* CustomUIPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4E6EAA21E484520053D2EE /* CustomUIPageControl.swift */; };
+		7C4E6EAD21E486E00053D2EE /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4E6EAC21E486E00053D2EE /* PageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7C4E6E9521E473D70053D2EE /* SplashTutorialDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplashTutorialDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C4E6E9821E473D70053D2EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7C4E6E9A21E473D70053D2EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7C4E6E9A21E473D70053D2EE /* PageContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageContentViewController.swift; sourceTree = "<group>"; };
 		7C4E6E9D21E473D70053D2EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C4E6E9F21E473E60053D2EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C4E6EA221E473E60053D2EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C4E6EA421E473E60053D2EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C4E6EAA21E484520053D2EE /* CustomUIPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUIPageControl.swift; sourceTree = "<group>"; };
+		7C4E6EAC21E486E00053D2EE /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				7C4E6E9821E473D70053D2EE /* AppDelegate.swift */,
-				7C4E6E9A21E473D70053D2EE /* ViewController.swift */,
+				7C4E6E9A21E473D70053D2EE /* PageContentViewController.swift */,
 				7C4E6E9C21E473D70053D2EE /* Main.storyboard */,
 				7C4E6E9F21E473E60053D2EE /* Assets.xcassets */,
 				7C4E6EA121E473E60053D2EE /* LaunchScreen.storyboard */,
 				7C4E6EA421E473E60053D2EE /* Info.plist */,
+				7C4E6EAA21E484520053D2EE /* CustomUIPageControl.swift */,
+				7C4E6EAC21E486E00053D2EE /* PageViewController.swift */,
 			);
 			path = SplashTutorialDemo;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C4E6E9B21E473D70053D2EE /* ViewController.swift in Sources */,
+				7C4E6E9B21E473D70053D2EE /* PageContentViewController.swift in Sources */,
+				7C4E6EAB21E484520053D2EE /* CustomUIPageControl.swift in Sources */,
 				7C4E6E9921E473D70053D2EE /* AppDelegate.swift in Sources */,
+				7C4E6EAD21E486E00053D2EE /* PageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
