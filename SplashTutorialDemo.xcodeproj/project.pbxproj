@@ -13,7 +13,7 @@
 		7C4E6EA021E473E60053D2EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C4E6E9F21E473E60053D2EE /* Assets.xcassets */; };
 		7C4E6EA321E473E60053D2EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C4E6EA121E473E60053D2EE /* LaunchScreen.storyboard */; };
 		7C4E6EAB21E484520053D2EE /* CustomUIPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4E6EAA21E484520053D2EE /* CustomUIPageControl.swift */; };
-		7C4E6EAD21E486E00053D2EE /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4E6EAC21E486E00053D2EE /* PageViewController.swift */; };
+		7C4E6EAD21E486E00053D2EE /* AppTutorialPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4E6EAC21E486E00053D2EE /* AppTutorialPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		7C4E6EA221E473E60053D2EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C4E6EA421E473E60053D2EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C4E6EAA21E484520053D2EE /* CustomUIPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUIPageControl.swift; sourceTree = "<group>"; };
-		7C4E6EAC21E486E00053D2EE /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		7C4E6EAC21E486E00053D2EE /* AppTutorialPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTutorialPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,7 @@
 				7C4E6EA121E473E60053D2EE /* LaunchScreen.storyboard */,
 				7C4E6EA421E473E60053D2EE /* Info.plist */,
 				7C4E6EAA21E484520053D2EE /* CustomUIPageControl.swift */,
-				7C4E6EAC21E486E00053D2EE /* PageViewController.swift */,
+				7C4E6EAC21E486E00053D2EE /* AppTutorialPageViewController.swift */,
 			);
 			path = SplashTutorialDemo;
 			sourceTree = "<group>";
@@ -144,7 +144,7 @@
 				7C4E6E9B21E473D70053D2EE /* PageContentViewController.swift in Sources */,
 				7C4E6EAB21E484520053D2EE /* CustomUIPageControl.swift in Sources */,
 				7C4E6E9921E473D70053D2EE /* AppDelegate.swift in Sources */,
-				7C4E6EAD21E486E00053D2EE /* PageViewController.swift in Sources */,
+				7C4E6EAD21E486E00053D2EE /* AppTutorialPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,34 +289,36 @@
 		7C4E6EA821E473E60053D2EE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = Customer;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GA4BAP9K3F;
 				INFOPLIST_FILE = SplashTutorialDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sharad.iSearch.SplashTutorialDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sharad.mobisoft.DemoApplication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		7C4E6EA921E473E60053D2EE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = Customer;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GA4BAP9K3F;
 				INFOPLIST_FILE = SplashTutorialDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sharad.iSearch.SplashTutorialDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sharad.mobisoft.DemoApplication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

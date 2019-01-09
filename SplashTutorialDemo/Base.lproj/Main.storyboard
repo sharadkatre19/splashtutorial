@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="QhA-BB-Tw1">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="QhA-BB-Tw1">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -13,12 +12,16 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController storyboardIdentifier="PageContentViewController" id="BYZ-38-t0r" customClass="PageContentViewController" customModule="SplashTutorialDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wJD-DZ-itw"/>
+                        <viewControllerLayoutGuide type="bottom" id="agM-ke-e5z"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="QKA-Bo-a3V">
-                                <rect key="frame" x="37.5" y="107" width="300" height="313"/>
+                                <rect key="frame" x="37.5" y="97" width="300" height="313"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ouu-9l-xc2">
                                         <rect key="frame" x="30" y="0.0" width="240" height="240"/>
@@ -44,11 +47,10 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="QKA-Bo-a3V" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-80" id="8ay-D3-Zok"/>
-                            <constraint firstItem="QKA-Bo-a3V" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="9r4-6g-jeP"/>
+                            <constraint firstItem="QKA-Bo-a3V" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-80" id="8ay-D3-Zok"/>
+                            <constraint firstItem="QKA-Bo-a3V" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9r4-6g-jeP"/>
                             <constraint firstItem="QKA-Bo-a3V" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.8" id="fDP-aM-Mgh"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="descriptionLabel" destination="rDL-rj-7xd" id="oxy-Fm-aOC"/>
@@ -60,10 +62,10 @@
             </objects>
             <point key="canvasLocation" x="1749.5999999999999" y="133.5832083958021"/>
         </scene>
-        <!--Page View Controller-->
+        <!--App Tutorial Page View Controller-->
         <scene sceneID="HI5-Zm-HpV">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="QhA-BB-Tw1" customClass="PageViewController" customModule="SplashTutorialDemo" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="QhA-BB-Tw1" customClass="AppTutorialPageViewController" customModule="SplashTutorialDemo" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jq0-wz-EDw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="882" y="134"/>
